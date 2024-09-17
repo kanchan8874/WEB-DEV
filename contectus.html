@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact Us</title>
+
+   <style>
+      .card {
+         border: 2px solid black;
+         width: 15%;
+         border-radius: 10px;
+         padding: 40px;
+         background-color:rgb(218, 236, 245) ;
+       
+      }
+
+      body {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         background-size: cover;
+         background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQar9csGvpmUzOv9k5KitfOIkpTf8N-YkeDHFD4UdX53-ACNcraIpzkf2a9cIr89QXEibc&usqp=CAU');         
+        
+         }
+
+         .form-title {
+            text-align:center;
+            font-family: -ui, -apple-system, BlisystemnkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+            font-size: 30px;
+         }
+
+         .text-input {
+            display: block;
+            height: 30px;
+            width: 100%;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            background-color:rgb(251, 251, 251);
+            border-bottom: 2px solid rgba(19, 19, 19, 0.998);
+
+         }
+
+         .submit-btn {
+            background-color: rgb(200, 41, 41);
+            color: white;
+            padding: 5px;
+            border: none;
+            width: 100%;
+            margin-top: 20px;
+            height: 35px;
+         }
+         .textarea{
+            width: 100px;
+            border: solid#ccc;
+            outline: none;
+            padding: 10px;
+            box-sizing: border-box;
+           
+
+            
+
+         }
+
+   </style>
+
+
+</head>
+
+<body>
+   <div class="card">
+      <h3 class="form-title">Contect Us</h3>
+      <form>
+         <label> Name</label>
+         <input type="text"placeholder=" First name " class="text-input">
+         <input type="text" placeholder="Second name " class="text-input">
+
+         <label>Email Address</label>
+         <input type="text"  placeholder="example@gmail.com" class="text-input">
+         <label>Phone number</label>
+         <input type="number" placeholder="Enter your mobile no" class="text-input">
+         <label>Message:</label><br>
+         <textarea rows="5" placeholder="your Message..."></textarea>
+         
+         
+
+
+
+         <!-- <a href="#" class="link">forget password ?</a><br> -->
+          <br>
+         <button class="submit-btn">Send Message</button>
+      </form>
+   </div>
+
+</body>
+
+</html>
