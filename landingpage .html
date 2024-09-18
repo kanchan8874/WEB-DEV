@@ -5,29 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class=" ">
     <main>
         <article>
             <!-- hero section start-->
-            <section class="border-2 border-red-500">
-                <div class="grid grid-cols-2 border-2 border-blue-500 w-[80%] mx-auto py-16">
+            <section class="border-2 border-red-500 h-screen lg:h-auto bg-red-300">
+                <div class="grid lg:grid-cols-2 border-2 border-blue-500 w-[80%] mx-auto py-16">
                     <div class="border border-green-500 space-y-6">
-                        <h1 class="text-5xl font-bold">Lorem ipsum dolor sit amet consectetur </h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi minima rem! Itaque
+                        <h1 class="text-4xl lg:text-5xl font-bold text-center lg:text-left">Lorem ipsum dolor sit amet
+                            consectetur </h1>
+                        <p class="text-center lg:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Vitae excepturi minima rem! Itaque
                             recusandae ab alias impedit explicabo, dolore nulla omnis maxime corrupti voluptatum eveniet
                             eligendi. Quod iste sequi asperiores.</p>
 
-                        <div class="flex gap-4">
-                            <button
-                                class="px-4 bg-gradient-to-r from-indigo-500 to-pink-500 text-white rounded">Explore</button>
-                            <button class="px-4 border border-indigo-500 rounded-">Create Account</button>
+                        <div class="flex gap-4 justify-center lg:justify-start">
+                            <button class="px-4 bg-gradient-to-r from-indigo-500 to-pink-500 text-white rounded"><i
+                                    class="fa-brands fa-wpexplorer"></i>Explore</button>
+                            <button class="px-4 border border-indigo-500 rounded-"><i
+                                    class="fa-solid fa-user"></i>Create Account</button>
 
                         </div>
                     </div>
                     <div class="border border-yellow-500">
-                        <img src="https://static.vecteezy.com/system/resources/previews/015/069/593/original/concept-of-e-learning-online-education-screen-of-pc-with-website-platform-and-teacher-or-tutor-flat-illustration-vector.jpg"
+                        <img class="w-full mt-10 lg:mt-0"
+                            src="https://static.vecteezy.com/system/resources/previews/015/069/593/original/concept-of-e-learning-online-education-screen-of-pc-with-website-platform-and-teacher-or-tutor-flat-illustration-vector.jpg"
                             alt="l">
 
                     </div>
@@ -38,6 +45,34 @@
 
             </section>
             <!-- hero section end -->
+            <section>
+                <h1>Our services</h1>
+                <div class="grid grid-cols-3">
+                    <div class="border border-indigo-300 shadow-lg rounded-lg  p-8">
+                        <img src="sevice1.png" alt="">
+                        <h3 class="text-3xl font-bold">Service Title 1</h3>
+                        <P>Lorem ipsum dolor sit amet.</P>
+                        <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded-lg">Learn more</button>
+
+                    </div>
+                    <div class="border border-indigo-300 shadow-lg rounded-lg  p-8">
+                        <img src="sevice1.png" alt="">
+                        <h3 class="text-3xl font-bold">Service Title 1</h3>
+                        <P>Lorem ipsum dolor sit amet.</P>
+                        <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded-lg">Learn more</button>
+
+                    </div>
+                    <div class="border border-indigo-300 shadow-lg rounded-lg  p-8">
+                        <img src="sevice1.png" alt="">
+                        <h3 class="text-3xl font-bold">Service Title 1</h3>
+                        <P>Lorem ipsum dolor sit amet.</P>
+                        <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded-lg">Learn more</button>
+
+                    </div>
+
+                </div>
+
+            </section>
         </article>
 
 
