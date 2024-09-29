@@ -13,4 +13,28 @@ console.log(a);
 a+=2;
 }
 
+console.log('--------------' )
 
+//print all even number from 100 to 200.....
+for(let i=100; i<=200; i++){
+    if(i%2==0){
+        console.log(i);
+    }
+}
+//smalldevvtool.........html to pdf converter....
+
+//wap to check if a no is prime or not
+const num =10;
+let prime =true;
+
+for(let i=2; i<num; i++){
+    if(num % i === 0){
+        console.log('not prime');
+        prime = false;
+        break;
+
+    }
+}
+if(prime)console.log('prime')
+
+    
