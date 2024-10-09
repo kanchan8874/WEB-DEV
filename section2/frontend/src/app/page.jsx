@@ -1,3 +1,5 @@
+import MyButton from '@/components/Button';
+import TextInput from '@/components/input';
 import React from 'react'
 
 const Home = () => {
@@ -10,6 +12,18 @@ const Home = () => {
       <button className="btn">other btn</button>
 
       <img src="/sicssors.avif" alt="" />
+      <MyButton>my custom button</MyButton>
+      <MyButton >home</MyButton>
+      <MyButton>login</MyButton>
+      <MyButton>about</MyButton>
+      <MyButton>submit</MyButton>
+
+      <TextInput type="password" lable="enter a password" id="password" />
+      <TextInput type="text" lable="enter name" id="name" />
+      <TextInput type="email" lable="enter address" id="email" />
+      
+
+
     </div>
   )
 }
