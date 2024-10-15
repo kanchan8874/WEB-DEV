@@ -1,5 +1,5 @@
 import MyButton from '@/components/Button';
-import TextInput from '@/components/input';
+import TextInput from '@/components/Input';
 import React from 'react'
 
 const Home = () => {
